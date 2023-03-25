@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+
+.navigasi {
+    background-color: #1436AE;
+    width: 100%;
+    height: 70px;
+    color: #F2F607;
+    position: fixed;
+}
+
+.logo {
+float: left;
+padding-top: 20px;
+padding-bottom: 10px;
+padding-left: 30px;
+}
+
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+.menu {
+    margin-left: 900px;
+    padding-top: 27px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #F2F607;
+}
+
+.menu ul li a:hover {
+    color: #2805FB;
+    font-style: italic;
+}
+
+
+.banner {
+    background-color: #2805FB;
+    height: 650px;
+    text-align: center;
+    color: white;
+}
+
+.banner img{
+    border-radius: 100px;
+    height: 200px;
+    border: 6px solid white;
+    margin-top: 100px;
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    margin: 0px 100px 100px;
+}
+
+
+.banner button {
+    margin-top: -10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: #2805FB;
+    border: 1px solid white;
+    color: white;
+}
+
+h1 span::before{
+    content: '';
+    animation: gerak infinite 10s ease;
+    transform: translateY(-50%);
+    color: #F2F607;
+    font-size: 60px;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    100% {
+        content: 'Saya Muhamad Naufal Indrawan';
+    }
+}
+
+.box-pendidikan {
+    text-align: center;
+    color: #000000;
+    margin-top: 80px;
+    align-content: center;
+}
+
+
+.box-1, .box-2, .box-3, .box-4 {
+    width: 200px;
+    height: 300px;
+    background-color: #f7dcdc;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left; 
+}
+
+.box-1 img, .box-2 img, .box-3 img, .box-4 img {
+    border-radius: 20px;
+    height: 100px;
+}
+
+.box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover {
+    background-color: #2805FB;
+    color: white;
+}
+
+.box-pendidikan h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+
+.box-skill {
+    text-align: center;
+    color: #000000;
+    margin-top: 600px;
+    align-content: center;
+}
+
+
+.box-a, .box-b, .box-c {
+    width: 300px;
+    height: 320px;
+    background-color: #f7dcdc;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left; 
+}
+
+.box-a img, .box-b img, .box-c img {
+    height: 100px;
+}
+
+.box-a:hover, .box-b:hover, .box-c:hover {
+    background-color: #2805FB;
+    color: white;
+}
+
+.box-skill h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.box-kontak {
+    text-align: center;
+    color: #000000;
+    margin-top: 600px;
+    align-content: center;
+}
+
+.box-kontak img {
+    width: 50px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.kontak-1, .kontak-2, .kontak-3, .kontak-4 {
+    width: 520px;
+    height: 30px;
+    background-color: #f7dcdc;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px -20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.kontak-1:hover, .kontak-2:hover, .kontak-3:hover, .kontak-4:hover {
+    background-color: #2805FB;
+    color: white;
+}
+
+.kontak-1 img {
+    margin-right: 420px;
+}
+
+.kontak-1 h3 {
+    margin-right: -40px;
+    margin-top: -70px;
+}
+
+.kontak-2 img {
+    margin-left: -180px;
+}
+
+.kontak-2 h3 {
+    margin-left: 70px;
+    margin-top: -70px;
+}
+
+.kontak-3 img {
+    margin-right: 320px;
+}
+
+.kontak-3 h3 {
+    margin-right: -40px;
+    margin-top: -70px;
+}
+
+.kontak-4 img {
+    margin-left: -150px;
+}
+
+.kontak-4 h3 {
+    margin-left: 40px;
+    margin-top: -70px;
+}
+
+.footer {
+    background-color: #2805FB;
+    width: 100%;
+    height: 150px;
+    color: white;
+    padding: 3px;
+    margin: 450px auto 0px;
+    text-align: center;
+}
+
+h2 span::before {
+    content: '';
+    animation: gerak2 infinite 10s ease;
+    transform: translateY(-50%);
+    color: #F2F607;
+    font-size: 40px;
+}
+
+@keyframes gerak2 {
+    0% {
+        content: 'Terima Kasih Sudah Berkunjung';
+    }
+    100% {
+        content: 'Semoga Kita Sehat Selalu';
+    }
+}
+
